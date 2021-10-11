@@ -1,7 +1,0 @@
-function r = eq(t,x)
-global a;
-global b;
-global c;
-%r = [a*(x(1)-x(2));(c-a)*x(1)-x(1)*x(3)+c*x(2);x(1)*x(2)-b*x(3)];
-r =  [x(2); (1-x(1)^2)*(2)-y(1)]
-end
