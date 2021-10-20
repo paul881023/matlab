@@ -1,0 +1,13 @@
+clear all;
+t = 0:0.01:2;
+x = cos(2*pi*t);
+y = cos(2*pi*(t+0.25));
+z = cos(2*pi*t/2);
+plot(t,x,'b');
+hold on;
+plot(t,y,'r');
+plot(t,z,'k');
+grid;
+legend('x(t) =  cos(2*pi*t)','y(t) = y = cos(2*pi*(t+0.25))','z(t) = cos(2*pi*t/2)');
+xlabel('t');
+ylabel('x(t),y(t),z(t)');
