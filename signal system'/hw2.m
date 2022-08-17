@@ -22,4 +22,4 @@ grid ;
 legend (  'Rectangular signal' ,' x N( t )' ) ;
 xlabel ( 't' ) ;
 ylabel ('x N( t )' ) ;
-axis ( [ -3 3 -0.5 1.5 ] ) ;123
+axis ( [ -3 3 -0.5 1.5 ] ) ;
